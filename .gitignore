@@ -1,0 +1,17 @@
+/img
+.git
+.DS_Store
+.htaccess
+/assets/addons
+/assets/core
+/redaxo/bin
+/redaxo/cache
+/redaxo/data/addons/developer
+/redaxo/data/addons/mblock
+/redaxo/data/addons/mform
+/redaxo/data/core
+/redaxo/data/.*
+/redaxo/src
+/redaxo/index.php
+index.php
+/media/.redaxo
