@@ -1,0 +1,30 @@
+package: mform
+version: '5.3.0'
+name: MForm
+author: Friends Of REDAXO
+supportpage: https://github.com/FriendsOfREDAXO/mform
+
+page:
+    title: 'translate:title'
+    pjax: true
+    perm: admin[]
+    icon: rex-icon fa-subway
+    subpages:
+        overview: { title: 'translate:overview' }
+        demo:
+            title: 'translate:referenz_demo'
+            subpages:
+                pjax: true
+                demo_base: { title: 'translate:demo_base' }
+                demo_extended: { title: 'translate:demo_extended' }
+                demo_expert: { title: 'translate:demo_expert' }
+                # demo_community: { title: 'translate:demo_community' }
+
+requires:
+    redaxo: '^5.6.5'
+
+system_plugins:
+    - docs
+conflicts:
+    packages:
+        ui_tools: '<1.0.0'
